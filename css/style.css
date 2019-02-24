@@ -8,11 +8,12 @@ body {
     background-size: cover;
     box-shadow: 0 2px 2px rgba(0, 0, 0, .2);}
 .cover2{
+    margin-block-start: -3em;
     width: 100%;
-    height: 300px;
+    height: 500px;
     background-color: #eee;
     background: url(../images/landing-image-background-4ok.jpg) center no-repeat;
-    background-size: cover;}
+    background-size: contain;}
 .picture {
     position: relative;
     top: -100px;
@@ -97,12 +98,9 @@ body {
     height:234px;
     background:rgb(184, 221, 159);
     margin:10px auto;}
-.contenu {    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    color: #222;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;}
-
- 
+  
+.so{
+    margin-block-start: 10em;
+}
+ul{
+    list-style:url("https://mdn.mozillademos.org/files/11981/starsolid.gif");}    
